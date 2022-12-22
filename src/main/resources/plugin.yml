@@ -1,0 +1,38 @@
+name: PlayerManager
+version: '${project.version}'
+main: me.vineer.playermanager.PlayerManager
+api-version: 1.16
+authors: [ Vineer ]
+description: Manage players
+depend: [EconomyAPI]
+commands:
+  sethome:
+    description: Sets your home point
+    usage: /<command>
+  home:
+    description: Teleport you to home
+    usage: /<command>
+  register:
+    description: register players
+    usage: /<command>
+  login:
+    description: login players
+    usage: /<command>
+  spawn:
+    description: teleports player to spawn
+    usage: /<command>
+  choseclass:
+    description: choses your class
+    usage: /<command>
+  addpermission:
+    description: add permission to player
+    usage: /<command>
+  homes:
+    description: your homes
+    usage: /<command>
+  reg:
+    description: register player
+    usage: /<command>
+  l:
+    description: login player
+    usage: /<command>
