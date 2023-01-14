@@ -2,6 +2,7 @@ package me.vineer.playermanager.commands;
 
 import me.vineer.playermanager.inventories.HomeMenuGUI;
 import org.bukkit.ChatColor;
+import org.bukkit.Particle;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -20,6 +21,7 @@ public class HomesCommand implements CommandExecutor {
                     return true;
                 }
                 name = args[0];
+
             }
         }
 

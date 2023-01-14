@@ -36,3 +36,6 @@ commands:
   l:
     description: login player
     usage: /<command>
+  rtp:
+    description: random teleportation
+    usage: /<command>

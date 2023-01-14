@@ -7,6 +7,7 @@ import net.kyori.adventure.audience.Audience;
 import net.kyori.adventure.bossbar.BossBar;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import net.kyori.adventure.text.Component;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
@@ -58,6 +59,7 @@ public class PlayerManager extends JavaPlugin implements Listener {
         getCommand("home").setTabCompleter(new HomeTabCompleter());
         getCommand("l").setExecutor(new LoginCommand());
         getCommand("reg").setExecutor(new RegisterCommand());
+        getCommand("rtp").setExecutor(new RtpCommand());
 
         Database.connect();
         try {

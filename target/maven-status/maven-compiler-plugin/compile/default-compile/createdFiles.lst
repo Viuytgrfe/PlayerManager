@@ -20,10 +20,12 @@ me\vineer\playermanager\Database.class
 me\vineer\playermanager\events\InventoryClassSelectEvents$1.class
 me\vineer\playermanager\DonateHome.class
 me\vineer\playermanager\PlayerManager$1.class
+me\vineer\playermanager\commands\RtpCommand$1.class
 me\vineer\playermanager\events\InventoryClassSelectEvents.class
 me\vineer\playermanager\commands\ChoseClassCommand.class
 me\vineer\playermanager\events\AdminEvents.class
 me\vineer\playermanager\events\LoginRegisterEvents$1.class
+me\vineer\playermanager\commands\RtpCommand.class
 me\vineer\playermanager\ranks\Ranks.class
 me\vineer\playermanager\commands\HomesCommand.class
 me\vineer\playermanager\commands\AddPermission.class
